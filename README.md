@@ -2,100 +2,41 @@ IUB & E Web Portal
 
 Project Overview
 
-The IUB & E Web Portal is a web-based academic management system developed for The Islamia University of Bahawalpur (IUB). The system aims to digitalize academic processes by providing separate portals for students, teachers, and administrators.
+IUB & E Web Portal is a web-based academic management system which is being developed for The Islamia University of Bahawalpur (IUB). The system enables the university to go digital in terms of academic processes and has three portals for students, teachers and administrators.
 
-It allows students to access academic information while enabling teachers and administrators to efficiently manage courses, attendance, and communication.
+It enables the students to get the information of their studies while teachers and administrators can manage the information of the courses and records as well as the attendance of the students and communicate with each other.
 
 Objectives
 
-Provide a centralized academic management system
-Improve accessibility of student academic data
-Enable efficient management of courses and records
-Reduce manual and paper-based processes
-Enhance communication between students and teachers
+Improve accessibility of student academic data of students Enable efficient management of courses and records of teachers of teachers Reduce manual and paper-based processes of administrative staff of administrative staff of university Enhance communication between students and teachers of university.
 
-User Roles
-Student
-View personal information
-View enrolled courses
-Check attendance records
-View results and grades
-Receive announcements
-Update personal details
+User Roles For Student Section: Student can view his/her information Student can view the enrolled courses Student can check his/her attendance record Student can check his/her results and grades Student can read announcements by teacher, HOD, and other authorities Student can update his/her information
 
-Teacher
-Manage course information
-Upload attendance
-Enter and update marks
-Share course materials
-Post announcements
+Teacher View manage courses Upload attendance records Enter and update marks of students Share study materials with students such as PDF, PPT etc. Post announcements for students.
 
-Admin
-Manage student and teacher accounts
-Create and manage courses
-Assign users to courses
+Admin: Admin can add student and teacher accounts, can add courses and can assign a course to a user (teacher or student).
 
-Key Features
-User Registration with Admin Approval
-Secure Login System
-Student Dashboard
-Teacher Dashboard
-Course Management System
-Attendance Management
-Result & Grade System
-Announcement System
-Password Reset Functionality
+User Registration with Admin ApprovalSecure Login SystemStudent DashboardTeacher DashboardCourse Management SystemAttendance ManagementResult & Grade SystemAnnouncement SystemPassword Reset Functionality.
 
 Technologies Used
 
-Frontend
-HTML5
-CSS3
-JavaScript (ES6)
-Bootstrap 5
+Frontend HTML5 CSS3 JavaScript (ES6) Bootstrap 5
 
-Backend
-Laravel (PHP Framework)
+Backend Laravel (PHP Framework)
 
-Database
-MySQL
+Database MySQL
 
-Server
-XAMPP (Apache, MySQL, PHP)
+Server XAMPP (Apache, MySQL, PHP)
 
+Non-Functional Requirements Secure system with encrypted passwords Portal loads in less than 3 seconds or less User-friendly interface with all the options clearly visible on student dashboard System is highly scalable and is able to handle thousands of users. The system is compatible with all the browsers. Integrity of data is maintained at all costs.
 
-Non-Functional Requirements
-Secure system with encrypted passwords
-Fast performance (≤ 3 seconds load time)
-Responsive and user-friendly interface
-Scalable architecture
-Cross-browser compatibility
-Data integrity and reliability
+System Scope In Scope: Student Portal, Teacher Portal, Admin Panel, Authentication System.
 
-System Scope
-In Scope
-Student Portal
-Teacher Portal
-Admin Panel
-Authentication System
+Online payment, Mobile application, LMS features (like quizzes/exams), ERP integration (for future scope).
 
-Out of Scope
-Online payments
-Mobile application
-LMS features (quizzes/exams)
-ERP integration (future scope)
+Future Enhancements: 1. Support of Mobile application 2. Integration with university ERP system 3. Notification system (Email/SMSM/SMS) 4. Advanced analytics dashboard.
 
-
-Future Enhancements
-Mobile application support
-Integration with university ERP system
-Notification system (Email/SMS)
-Advanced analytics dashboard
-
-
-Documentation
-The Software Requirements Specification (SRS) document is included in this repository.
-
+Documentation The Software Requirements Specification (SRS) document is provided in this repository.
 
 Author
 
